@@ -212,6 +212,38 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# ==========================================
+# DATA & MODEL FILE EXCLUSIONS
+# ==========================================
+
+# Raw and Processed Datasets
+*.csv
+*.tsv
+*.json
+*.parquet
+*.xlsx
+*.zip
+*.gz
+
+# Serialized ML Models & Weights
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+*.model
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments & Local Configs
+.venv/
+venv/
+.env
+.DS_Store
+.vscode/
+.idea/
 __marimo__/
 
 # Streamlit
